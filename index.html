@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music mania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+   
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: yellow;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+body{
+  background-image: url(pop.jpg);
+}
+.m{
+    margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+
+    
+    
+
+video{
+   background-color: black;
+     border-radius: 10px;
+     width: 300px;
+ 
+     background-size: contain;
+     
+}
+.end{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: serif;
+    background-color: blue;
+}
+</style>
+<body>
+    <header>
+    <h1>MUSIC MANIA</h1>
+    </header>
+    <main>
+    <div class="m">
+       
+        
+ <video   controls loop width="200px"
+ src="Jogi Song Fullscreen Status - Jogi Song Status - Jogi Whatsapp Status - Yasser Desai - Love Status.mkv"></video>
+ <br>
+ <video  controls loop  width="200px"
+ src="Thodi Jagah Status - Marjaavan - Arijit Singh - Full Screen.mp4"></video>
+
+<script>
+    var videos = document.getElementsByTagName("video");
+
+function checkScroll() {
+    var fraction = 0.8; // Play when 80% of the player is visible.
+
+    for(var i = 0; i < videos.length; i++) {
+
+        var video = videos[i];
+
+        var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+            b = y + h, //bottom
+            visibleX, visibleY, visible;
+
+            visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+            visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+            visible = visibleX * visibleY / (w * h);
+
+            if (visible > fraction) {
+                video.play();
+            } else {
+                video.pause();
+            }
+
+    }
+
+}
+
+window.addEventListener('scroll', checkScroll, false);
+window.addEventListener('resize', checkScroll, false);
+</script>
+ 
+ <br>
+ <video controls width="200px"
+  src="THOR⚡VS CAPTAIN MARVEL💥 WhatsApp status.......mp4"></video> 
+  <br>
+  <video controls loop height="300px"
+  src="694.mkv"></video>
+  
+ 
+<br>
+
+<video controls loop width="200px"
+src="Love Status 😘 - Kriti Kharbanda Beautiful Status 💕 - Tu Ban Ja Gali Banaras Ki Song - Raj Kumar Rao.mp4"></video>
+<br>
+<video controls loop height="400px"
+ src="96.mkv"></video>
+
+<br>
+
+<video controls width="200px"
+src="WE WANT RDJ FOR Lifetime IN MCU..mp4"></video>
+<script></script>
+
+
+
+    <br>
+    <video controls  loop 
+    src="45.mp4"></video>
+    <br>
+    <video controls loop 
+    src="I cried when he saved mj in NWH 😭 - Full video link in description - Spiderman × Main Dhoondne_2.mkv"></video>
+    <br>
+    <video  controls loop height="400px"
+    src="78.mkv"></video>
+    <br>
+  
+    <video  controls loop 
+    src="Iron man and Spider-man full screen edit on' Whoopty remix'.mkv"></video>
+  <br>
+  <video controls loop height="300px"
+     src="95.mkv"></video>
+  <br>
+    <video controls loop 
+     src="50.mp4"></video>
+     <br>
+    <video controls loop
+     src="223.mkv"></video>
+     <br>
+     <video controls
+      src="Hawkeye.mkv"></video>
+      <br>
+      <video controls height="400px" id="ct"
+       src="Dua Karo- - Street Dancer 3D - Marvel Avengers Endgame - Ironman , Cap ,Thor - Hindi Music Video --.mkv"></video>
+       <br>
+       <video controls loop 
+       src="22.mkv"></video>
+       <br>
+       <video controls height="400px"
+       src="01.mkv"></video>
+       <br>
+       <div class="end"
+       <h1>EVERY JOUERNEY HAS End </h1>
+       <p>but this is begin</p>
+    </div>
+
+    </div>
+    
+   
+      
+
+    </main>
+   
+</body>
+</html>
